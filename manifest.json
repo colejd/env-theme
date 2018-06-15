@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "EnvTheme",
+  "version": "1.0",
+  "description": "Extension that themes windows based on their content",
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "theme", 
+    "tabs",
+    "storage"
+  ],
+  "applications": {
+    "gecko": {
+      "id": "env-theme@jons.website",
+      "strict_min_version": "58.0"
+    }
+  }
+}
